@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.aplateia.com.br/wp-content/uploads/2019/05/perguntados-gameblast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#game-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+.restart-button {
+    background-color: #00cc66;
+    color: #fff;
+}
+
+.restart-button:hover {
+    background-color: #009944;
+}
+
+#question-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#result-text {
+    margin-top: 20px;
+    font-size: 16px;
+}
